@@ -1,0 +1,9 @@
+2022-09-17 14:05:45,378 gongfudou INFO assert.py [78] 当前要比对的sql语句：
+select id from users where phone='18751879531'
+2022-09-17 14:05:45,379 gongfudou INFO assert.py [79] 当前执行sql的查询类型(查询结果条数/查询某个值.)：
+count
+2022-09-17 14:05:45,380 gongfudou INFO assert.py [80] 期望结果为：1
+2022-09-17 14:05:45,380 gongfudou INFO assert.py [83] 比对数据库查询的结果条数，是否符合期望
+2022-09-17 14:05:45,396 gongfudou INFO assert.py [86] sql的执行结果为：1
+2022-09-17 14:05:45,396 gongfudou INFO assert.py [103] 比对结果为：True
+2022-09-17 14:05:45,396 gongfudou INFO assert.py [111] 所有断言成功！
