@@ -6,8 +6,10 @@
  @Software: PyCharm
  @company : 功夫豆信息科技
 """
+import sys,os
+sys.path.append('..')
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
 import pytest
-import os
 import json
 
 from common.conf import MyConf
