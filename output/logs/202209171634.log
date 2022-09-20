@@ -1,0 +1,104 @@
+2022-09-17 16:34:40,948 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-17 16:34:40,948 gongfudou INFO request.py [39] 请求url: 
+https://api.xbxxhz.com/api/server/capability
+2022-09-17 16:34:40,949 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-17 16:34:40,949 gongfudou INFO request.py [41] 请求数据: 
+{'make': 'CANON', 'modal': 'G3000', 'ipp': True}
+2022-09-17 16:34:41,647 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-17 16:34:41,648 gongfudou INFO request.py [39] 请求url: 
+https://api.xbxxhz.com/api/server/capability
+2022-09-17 16:34:41,648 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-17 16:34:41,648 gongfudou INFO request.py [41] 请求数据: 
+{'make': 'CANON', 'modal': 'G3000', 'ipp': True}
+2022-09-17 16:34:42,205 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-17 16:34:42,205 gongfudou INFO request.py [39] 请求url: 
+https://api.xbxxhz.com/api/server/change_client
+2022-09-17 16:34:42,205 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-17 16:34:42,205 gongfudou INFO request.py [41] 请求数据: 
+{'device_id': '00117F1C42D2', 'device_secret': '1fa532667118a1cb', 'callback_url': 'https://api-k-stg.xbxxhz.com/api/v1/callbacks/device'}
+2022-09-17 16:34:42,529 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-17 16:34:42,529 gongfudou INFO request.py [39] 请求url: 
+https://api.xbxxhz.com/api/server/create_job
+2022-09-17 16:34:42,529 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-17 16:34:42,529 gongfudou INFO request.py [41] 请求数据: 
+{'device_id': '00117F1C42D2', 'device_secret': '1fa532667118a1cb', 'url': 'https://cdn-h.gongfudou.com/Leviathan/user/temp/2021/10/11/642d53cf-8de5-4f24-a757-2024b92e8151?x-image-process=image/auto-orient,1/resize,m_fill,h_1950,w_1300,limit_0/quality,Q_100/format,jpg/marker,u_plus/format,jpg', 'out_sn': '46101052959900901844', 'callback_url': 'http://192.168.0.133:9000/api/v1/callbacks/task', 'media_size': 'GCP_MS_4X6', 'media_type': 'GCP_MT_PHOTO', 'file_type': 'jpg', 'number': 1, 'borderless': False}
+2022-09-17 16:34:42,811 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-17 16:34:42,811 gongfudou INFO request.py [39] 请求url: 
+https://api.xbxxhz.com/api/server/client_jobs
+2022-09-17 16:34:42,811 gongfudou INFO request.py [40] 请求方法: 
+get
+2022-09-17 16:34:42,811 gongfudou INFO request.py [41] 请求数据: 
+{'device_id': 'C01C30215F16'}
+2022-09-17 16:34:43,159 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-17 16:34:43,159 gongfudou INFO request.py [39] 请求url: 
+https://api.xbxxhz.com/api/server/cancel_job
+2022-09-17 16:34:43,159 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-17 16:34:43,160 gongfudou INFO request.py [41] 请求数据: 
+{'device_id': '00E099157726', 'sn': '', 'sn1': '任务编号，如不提交则会取消当前设备所有未打印完成的任务'}
+2022-09-17 16:34:43,444 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-17 16:34:43,444 gongfudou INFO request.py [39] 请求url: 
+https://api.xbxxhz.com/api/server/support_printers
+2022-09-17 16:34:43,444 gongfudou INFO request.py [40] 请求方法: 
+get
+2022-09-17 16:34:43,444 gongfudou INFO request.py [41] 请求数据: 
+{}
+2022-09-17 16:34:43,896 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-17 16:34:43,897 gongfudou INFO request.py [39] 请求url: 
+https://api.xbxxhz.com/api/server/lpoptions
+2022-09-17 16:34:43,897 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-17 16:34:43,897 gongfudou INFO request.py [41] 请求数据: 
+{'make': 'EPSON', 'modal': 'L805'}
+2022-09-17 16:34:44,196 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-17 16:34:44,196 gongfudou INFO request.py [39] 请求url: 
+https://api.xbxxhz.com/api/server/job_queue_health
+2022-09-17 16:34:44,196 gongfudou INFO request.py [40] 请求方法: 
+get
+2022-09-17 16:34:44,196 gongfudou INFO request.py [41] 请求数据: 
+{}
+2022-09-17 16:34:44,515 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-17 16:34:44,516 gongfudou INFO request.py [39] 请求url: 
+https://api.xbxxhz.com/api/server/command
+2022-09-17 16:34:44,516 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-17 16:34:44,516 gongfudou INFO request.py [41] 请求数据: 
+{'device_id': '00E099157726', 'device_secret': '96a60de5072821dc', 'command': 'reboot', 'content': '192.168.3.119', 'remark': 'command:reboot,rescan,scan_list,scan_job,rmlock'}
+2022-09-17 16:34:44,889 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-17 16:34:44,890 gongfudou INFO request.py [39] 请求url: 
+https://api.xbxxhz.com/api/server/app_auth
+2022-09-17 16:34:44,890 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-17 16:34:44,890 gongfudou INFO request.py [41] 请求数据: 
+{'uid': 419516904, 'platform': 'ios', 'version': '1.5.4.1'}
+2022-09-17 16:34:45,198 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-17 16:34:45,198 gongfudou INFO request.py [39] 请求url: 
+https://api.xbxxhz.com/api/server/client_info
+2022-09-17 16:34:45,198 gongfudou INFO request.py [40] 请求方法: 
+get
+2022-09-17 16:34:45,199 gongfudou INFO request.py [41] 请求数据: 
+{'device_id': 'C01C30215F16'}
+2022-09-17 16:34:45,491 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-17 16:34:45,492 gongfudou INFO request.py [39] 请求url: 
+https://api.xbxxhz.com/api/v1/mobile_codes
+2022-09-17 16:34:45,492 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-17 16:34:45,492 gongfudou INFO request.py [41] 请求数据: 
+{'mobile': '#phone#'}
