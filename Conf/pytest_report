@@ -1,0 +1,12 @@
+# pytest.ini
+[pytest]
+
+addopts=-v -s
+
+# testpaths = testcases
+
+python_files = /Users/gfd/Desktop/gfd/testcases/test_gcp.py
+
+# python_classes = Test_*
+
+# python_functions = test_*
