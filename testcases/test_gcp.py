@@ -74,3 +74,8 @@ class TestGcp:
         if False in assert_res:
             raise AssertionError
 
+pytest.main(['--report=_report.html',
+             '--title=GCP接口自动化测试报告',
+             '--tester=王文闯',
+             '--desc=报告描述信息',
+             '--template=1'])
