@@ -6,9 +6,7 @@
  @Software: PyCharm
  @company : 功夫豆信息科技
 """
-import sys
-import os
-
+import sys,os
 sys.path.append('..')
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
 import pytest
@@ -75,4 +73,8 @@ class TestGcp:
         # 最终的抛AsserttionError
         if False in assert_res:
             raise AssertionError
-
+pytest.main(['--report=_report.html',
+             '--title=GCP接口自动化测试报告',
+             '--tester=王文闯',
+             '--desc=报告描述信息',
+             '--template=1'])
