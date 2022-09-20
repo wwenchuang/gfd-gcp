@@ -1,0 +1,297 @@
+2022-09-20 09:33:42,377 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-20 09:33:42,377 gongfudou INFO request.py [39] 请求url: 
+https://gcp-staging-1.gongfudou.com/api/server/capability
+2022-09-20 09:33:42,377 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-20 09:33:42,377 gongfudou INFO request.py [41] 请求数据: 
+{'make': 'CANON', 'modal': 'G3000', 'ipp': True}
+2022-09-20 09:33:42,471 gongfudou INFO request.py [48] 响应结果：
+{"code":0,"msg":"ok","data":{"capability":{"ppd":"/opt/CANON/ppd/canong3000.ppd","force_ipp":false,"driver_reverse":false,"pdftops":false,"media_sizes":[{"media_size":"GCP_MS_A4","option":"o::PageSize=A4","attr":"","media_types":[{"media_type":"GCP_MT_PLAIN","option":"o::MediaType=plain","attr":"","duplex":["GCP_DP_NONE"],"borderless":false,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null},{"media_type":"GCP_MT_PHOTO","option":"o::MediaType=glossygold","attr":"","duplex":["GCP_DP_NONE"],"borderless":true,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"ro::PageSize=A4.bl","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null}]},{"media_size":"GCP_MS_A5","option":"o::PageSize=A5","attr":"","media_types":[{"media_type":"GCP_MT_PLAIN","option":"o::MediaType=plain","attr":"","duplex":["GCP_DP_NONE"],"borderless":false,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null},{"media_type":"GCP_MT_PHOTO","option":"o::MediaType=glossygold","attr":"","duplex":["GCP_DP_NONE"],"borderless":false,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null}]},{"media_size":"GCP_MS_4X6","option":"o::PageSize=4x6","attr":"","media_types":[{"media_type":"GCP_MT_PLAIN","option":"o::MediaType=plain","attr":"","duplex":["GCP_DP_NONE"],"borderless":true,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"ro::PageSize=4x6.bl","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null},{"media_type":"GCP_MT_PHOTO","option":"o::MediaType=glossygold","attr":"","duplex":["GCP_DP_NONE"],"borderless":true,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"ro::PageSize=4x6.bl","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null}]},{"media_size":"GCP_MS_2L","option":"o::PageSize=5x7","attr":"","media_types":[{"media_type":"GCP_MT_PLAIN","option":"o::MediaType=plain","attr":"","duplex":["GCP_DP_NONE"],"borderless":true,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"ro::PageSize=5x7.bl","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null},{"media_type":"GCP_MT_PHOTO","option":"o::MediaType=glossygold","attr":"","duplex":["GCP_DP_NONE"],"borderless":true,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"ro::PageSize=5x7.bl","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null}]}],"printer_type":0,"icon":"","ipp_jpeg":false,"ipp_pdf":false}}}
+2022-09-20 09:33:42,472 gongfudou INFO test_gcp.py [52] {'code': 0, 'msg': 'ok', 'data': {'capability': {'ppd': '/opt/CANON/ppd/canong3000.ppd', 'force_ipp': False, 'driver_reverse': False, 'pdftops': False, 'media_sizes': [{'media_size': 'GCP_MS_A4', 'option': 'o::PageSize=A4', 'attr': '', 'media_types': [{'media_type': 'GCP_MT_PLAIN', 'option': 'o::MediaType=plain', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': False, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': '', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}, {'media_type': 'GCP_MT_PHOTO', 'option': 'o::MediaType=glossygold', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': True, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': 'ro::PageSize=A4.bl', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}]}, {'media_size': 'GCP_MS_A5', 'option': 'o::PageSize=A5', 'attr': '', 'media_types': [{'media_type': 'GCP_MT_PLAIN', 'option': 'o::MediaType=plain', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': False, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': '', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}, {'media_type': 'GCP_MT_PHOTO', 'option': 'o::MediaType=glossygold', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': False, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': '', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}]}, {'media_size': 'GCP_MS_4X6', 'option': 'o::PageSize=4x6', 'attr': '', 'media_types': [{'media_type': 'GCP_MT_PLAIN', 'option': 'o::MediaType=plain', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': True, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': 'ro::PageSize=4x6.bl', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}, {'media_type': 'GCP_MT_PHOTO', 'option': 'o::MediaType=glossygold', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': True, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': 'ro::PageSize=4x6.bl', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}]}, {'media_size': 'GCP_MS_2L', 'option': 'o::PageSize=5x7', 'attr': '', 'media_types': [{'media_type': 'GCP_MT_PLAIN', 'option': 'o::MediaType=plain', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': True, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': 'ro::PageSize=5x7.bl', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}, {'media_type': 'GCP_MT_PHOTO', 'option': 'o::MediaType=glossygold', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': True, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': 'ro::PageSize=5x7.bl', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}]}], 'printer_type': 0, 'icon': '', 'ipp_jpeg': False, 'ipp_pdf': False}}}
+2022-09-20 09:33:42,472 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-09-20 09:33:42,473 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+0
+2022-09-20 09:33:42,473 gongfudou INFO myassert.py [39] 期望结果为:
+0
+2022-09-20 09:33:42,473 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.msg', 'expected': 'ok', 'type': 'eq'}
+2022-09-20 09:33:42,473 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+ok
+2022-09-20 09:33:42,473 gongfudou INFO myassert.py [39] 期望结果为:
+ok
+2022-09-20 09:33:42,473 gongfudou INFO myassert.py [54] 所有断言成功！
+2022-09-20 09:33:42,522 gongfudou INFO myassert.py [78] 当前要比对的sql语句：
+select * from users where phone='18751879531'
+2022-09-20 09:33:42,522 gongfudou INFO myassert.py [79] 当前执行sql的查询类型(查询结果条数/查询某个值.)：
+count
+2022-09-20 09:33:42,522 gongfudou INFO myassert.py [80] 期望结果为：1
+2022-09-20 09:33:42,522 gongfudou INFO myassert.py [83] 比对数据库查询的结果条数，是否符合期望
+2022-09-20 09:33:42,539 gongfudou INFO myassert.py [86] sql的执行结果为：1
+2022-09-20 09:33:42,540 gongfudou INFO myassert.py [103] 比对结果为：True
+2022-09-20 09:33:42,540 gongfudou INFO myassert.py [111] 所有断言成功！
+2022-09-20 09:33:42,546 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-20 09:33:42,547 gongfudou INFO request.py [39] 请求url: 
+https://gcp-staging-1.gongfudou.com/api/server/capability
+2022-09-20 09:33:42,547 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-20 09:33:42,547 gongfudou INFO request.py [41] 请求数据: 
+{'make': 'CANON', 'modal': 'G3000', 'ipp': True}
+2022-09-20 09:33:42,903 gongfudou INFO request.py [48] 响应结果：
+{"code":0,"msg":"ok","data":{"capability":{"ppd":"/opt/CANON/ppd/canong3000.ppd","force_ipp":false,"driver_reverse":false,"pdftops":false,"media_sizes":[{"media_size":"GCP_MS_A4","option":"o::PageSize=A4","attr":"","media_types":[{"media_type":"GCP_MT_PLAIN","option":"o::MediaType=plain","attr":"","duplex":["GCP_DP_NONE"],"borderless":false,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null},{"media_type":"GCP_MT_PHOTO","option":"o::MediaType=glossygold","attr":"","duplex":["GCP_DP_NONE"],"borderless":true,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"ro::PageSize=A4.bl","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null}]},{"media_size":"GCP_MS_A5","option":"o::PageSize=A5","attr":"","media_types":[{"media_type":"GCP_MT_PLAIN","option":"o::MediaType=plain","attr":"","duplex":["GCP_DP_NONE"],"borderless":false,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null},{"media_type":"GCP_MT_PHOTO","option":"o::MediaType=glossygold","attr":"","duplex":["GCP_DP_NONE"],"borderless":false,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null}]},{"media_size":"GCP_MS_4X6","option":"o::PageSize=4x6","attr":"","media_types":[{"media_type":"GCP_MT_PLAIN","option":"o::MediaType=plain","attr":"","duplex":["GCP_DP_NONE"],"borderless":true,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"ro::PageSize=4x6.bl","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null},{"media_type":"GCP_MT_PHOTO","option":"o::MediaType=glossygold","attr":"","duplex":["GCP_DP_NONE"],"borderless":true,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"ro::PageSize=4x6.bl","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null}]},{"media_size":"GCP_MS_2L","option":"o::PageSize=5x7","attr":"","media_types":[{"media_type":"GCP_MT_PLAIN","option":"o::MediaType=plain","attr":"","duplex":["GCP_DP_NONE"],"borderless":true,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"ro::PageSize=5x7.bl","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null},{"media_type":"GCP_MT_PHOTO","option":"o::MediaType=glossygold","attr":"","duplex":["GCP_DP_NONE"],"borderless":true,"high_quality":false,"color_mode":["GCP_CM_COLOR","GCP_CM_GRAY"],"duplex_option":null,"duplex_attr":null,"borderless_option":"ro::PageSize=5x7.bl","borderless_attr":"","high_quality_option":"","color_mode_option":{"GCP_CM_GRAY":"o::CNGrayscale=True"},"color_mode_attr":null}]}],"printer_type":0,"icon":"","ipp_jpeg":false,"ipp_pdf":false}}}
+2022-09-20 09:33:42,904 gongfudou INFO test_gcp.py [52] {'code': 0, 'msg': 'ok', 'data': {'capability': {'ppd': '/opt/CANON/ppd/canong3000.ppd', 'force_ipp': False, 'driver_reverse': False, 'pdftops': False, 'media_sizes': [{'media_size': 'GCP_MS_A4', 'option': 'o::PageSize=A4', 'attr': '', 'media_types': [{'media_type': 'GCP_MT_PLAIN', 'option': 'o::MediaType=plain', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': False, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': '', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}, {'media_type': 'GCP_MT_PHOTO', 'option': 'o::MediaType=glossygold', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': True, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': 'ro::PageSize=A4.bl', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}]}, {'media_size': 'GCP_MS_A5', 'option': 'o::PageSize=A5', 'attr': '', 'media_types': [{'media_type': 'GCP_MT_PLAIN', 'option': 'o::MediaType=plain', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': False, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': '', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}, {'media_type': 'GCP_MT_PHOTO', 'option': 'o::MediaType=glossygold', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': False, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': '', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}]}, {'media_size': 'GCP_MS_4X6', 'option': 'o::PageSize=4x6', 'attr': '', 'media_types': [{'media_type': 'GCP_MT_PLAIN', 'option': 'o::MediaType=plain', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': True, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': 'ro::PageSize=4x6.bl', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}, {'media_type': 'GCP_MT_PHOTO', 'option': 'o::MediaType=glossygold', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': True, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': 'ro::PageSize=4x6.bl', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}]}, {'media_size': 'GCP_MS_2L', 'option': 'o::PageSize=5x7', 'attr': '', 'media_types': [{'media_type': 'GCP_MT_PLAIN', 'option': 'o::MediaType=plain', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': True, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': 'ro::PageSize=5x7.bl', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}, {'media_type': 'GCP_MT_PHOTO', 'option': 'o::MediaType=glossygold', 'attr': '', 'duplex': ['GCP_DP_NONE'], 'borderless': True, 'high_quality': False, 'color_mode': ['GCP_CM_COLOR', 'GCP_CM_GRAY'], 'duplex_option': None, 'duplex_attr': None, 'borderless_option': 'ro::PageSize=5x7.bl', 'borderless_attr': '', 'high_quality_option': '', 'color_mode_option': {'GCP_CM_GRAY': 'o::CNGrayscale=True'}, 'color_mode_attr': None}]}], 'printer_type': 0, 'icon': '', 'ipp_jpeg': False, 'ipp_pdf': False}}}
+2022-09-20 09:33:42,904 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-09-20 09:33:42,904 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+0
+2022-09-20 09:33:42,904 gongfudou INFO myassert.py [39] 期望结果为:
+0
+2022-09-20 09:33:42,904 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.msg', 'expected': 'ok', 'type': 'eq'}
+2022-09-20 09:33:42,904 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+ok
+2022-09-20 09:33:42,904 gongfudou INFO myassert.py [39] 期望结果为:
+ok
+2022-09-20 09:33:42,904 gongfudou INFO myassert.py [54] 所有断言成功！
+2022-09-20 09:33:42,907 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-20 09:33:42,908 gongfudou INFO request.py [39] 请求url: 
+https://gcp-staging-1.gongfudou.com/api/server/change_client
+2022-09-20 09:33:42,908 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-20 09:33:42,908 gongfudou INFO request.py [41] 请求数据: 
+{'device_id': '00117F1C42D2', 'device_secret': '1fa532667118a1cb', 'callback_url': 'https://api-k-stg.xbxxhz.com/api/v1/callbacks/device'}
+2022-09-20 09:33:42,977 gongfudou INFO request.py [48] 响应结果：
+{"code":0,"msg":"ok","data":{"callback_url":"https://api-k-stg.xbxxhz.com/api/v1/callbacks/device","device_id":"00117F1C42D2","device_secret":"1fa532667118a1cb"}}
+2022-09-20 09:33:42,978 gongfudou INFO test_gcp.py [52] {'code': 0, 'msg': 'ok', 'data': {'callback_url': 'https://api-k-stg.xbxxhz.com/api/v1/callbacks/device', 'device_id': '00117F1C42D2', 'device_secret': '1fa532667118a1cb'}}
+2022-09-20 09:33:42,978 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-09-20 09:33:42,978 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+0
+2022-09-20 09:33:42,978 gongfudou INFO myassert.py [39] 期望结果为:
+0
+2022-09-20 09:33:42,978 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.msg', 'expected': 'ok', 'type': 'eq'}
+2022-09-20 09:33:42,978 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+ok
+2022-09-20 09:33:42,979 gongfudou INFO myassert.py [39] 期望结果为:
+ok
+2022-09-20 09:33:42,979 gongfudou INFO myassert.py [54] 所有断言成功！
+2022-09-20 09:33:42,986 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-20 09:33:42,986 gongfudou INFO request.py [39] 请求url: 
+https://gcp-staging-1.gongfudou.com/api/server/create_job
+2022-09-20 09:33:42,986 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-20 09:33:42,986 gongfudou INFO request.py [41] 请求数据: 
+{'device_id': '00117F1C42D2', 'device_secret': '1fa532667118a1cb', 'url': 'https://cdn-h.gongfudou.com/Leviathan/user/temp/2021/10/11/642d53cf-8de5-4f24-a757-2024b92e8151?x-image-process=image/auto-orient,1/resize,m_fill,h_1950,w_1300,limit_0/quality,Q_100/format,jpg/marker,u_plus/format,jpg', 'out_sn': '46101052959900901844', 'callback_url': 'http://192.168.0.133:9000/api/v1/callbacks/task', 'media_size': 'GCP_MS_4X6', 'media_type': 'GCP_MT_PHOTO', 'file_type': 'jpg', 'number': 1, 'borderless': False}
+2022-09-20 09:33:43,430 gongfudou INFO request.py [48] 响应结果：
+{"code":0,"msg":"ok","data":{"out_sn":"46101052959900901844","sn":"4449d887-3884-11ed-bf60-0255ac10003b-20220920-093345","state":1}}
+2022-09-20 09:33:43,430 gongfudou INFO test_gcp.py [52] {'code': 0, 'msg': 'ok', 'data': {'out_sn': '46101052959900901844', 'sn': '4449d887-3884-11ed-bf60-0255ac10003b-20220920-093345', 'state': 1}}
+2022-09-20 09:33:43,430 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-09-20 09:33:43,430 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+0
+2022-09-20 09:33:43,430 gongfudou INFO myassert.py [39] 期望结果为:
+0
+2022-09-20 09:33:43,430 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.msg', 'expected': 'ok', 'type': 'eq'}
+2022-09-20 09:33:43,430 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+ok
+2022-09-20 09:33:43,431 gongfudou INFO myassert.py [39] 期望结果为:
+ok
+2022-09-20 09:33:43,431 gongfudou INFO myassert.py [54] 所有断言成功！
+2022-09-20 09:33:43,436 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-20 09:33:43,437 gongfudou INFO request.py [39] 请求url: 
+https://gcp-staging-1.gongfudou.com/api/server/client_jobs
+2022-09-20 09:33:43,438 gongfudou INFO request.py [40] 请求方法: 
+get
+2022-09-20 09:33:43,439 gongfudou INFO request.py [41] 请求数据: 
+{'device_id': 'C01C30215F16'}
+2022-09-20 09:33:43,540 gongfudou INFO request.py [48] 响应结果：
+{"code":0,"msg":"ok","data":{"jobs":[]}}
+2022-09-20 09:33:43,541 gongfudou INFO test_gcp.py [52] {'code': 0, 'msg': 'ok', 'data': {'jobs': []}}
+2022-09-20 09:33:43,541 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-09-20 09:33:43,541 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+0
+2022-09-20 09:33:43,541 gongfudou INFO myassert.py [39] 期望结果为:
+0
+2022-09-20 09:33:43,541 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.msg', 'expected': 'ok', 'type': 'eq'}
+2022-09-20 09:33:43,541 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+ok
+2022-09-20 09:33:43,541 gongfudou INFO myassert.py [39] 期望结果为:
+ok
+2022-09-20 09:33:43,541 gongfudou INFO myassert.py [54] 所有断言成功！
+2022-09-20 09:33:43,545 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-20 09:33:43,545 gongfudou INFO request.py [39] 请求url: 
+https://gcp-staging-1.gongfudou.com/api/server/cancel_job
+2022-09-20 09:33:43,545 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-20 09:33:43,545 gongfudou INFO request.py [41] 请求数据: 
+{'device_id': '00E099157726', 'sn': '', 'sn1': '任务编号，如不提交则会取消当前设备所有未打印完成的任务'}
+2022-09-20 09:33:43,626 gongfudou INFO request.py [48] 响应结果：
+{"code":0,"msg":"ok","data":null}
+2022-09-20 09:33:43,627 gongfudou INFO test_gcp.py [52] {'code': 0, 'msg': 'ok', 'data': None}
+2022-09-20 09:33:43,627 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-09-20 09:33:43,627 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+0
+2022-09-20 09:33:43,627 gongfudou INFO myassert.py [39] 期望结果为:
+0
+2022-09-20 09:33:43,627 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.msg', 'expected': 'ok', 'type': 'eq'}
+2022-09-20 09:33:43,627 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+ok
+2022-09-20 09:33:43,627 gongfudou INFO myassert.py [39] 期望结果为:
+ok
+2022-09-20 09:33:43,627 gongfudou INFO myassert.py [54] 所有断言成功！
+2022-09-20 09:33:43,629 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-20 09:33:43,629 gongfudou INFO request.py [39] 请求url: 
+https://gcp-staging-1.gongfudou.com/api/server/support_printers
+2022-09-20 09:33:43,630 gongfudou INFO request.py [40] 请求方法: 
+get
+2022-09-20 09:33:43,630 gongfudou INFO request.py [41] 请求数据: 
+{}
+2022-09-20 09:33:43,996 gongfudou INFO request.py [48] 响应结果：
+{"code":0,"msg":"ok","data":{"printers":{"AISINO":["AP-1220","AP-2580"],"AURORA":["AD200PS","AD209PW","AD220MC","AD220MNF","AD220MNW","AD229MA","AD229MNA","AD229MWC","AD229PNW","AD229PS","AD240PN","AD310MC","AD310PDN","AD316MWA","AD330MWC","ADC240MNA"],"BROTHER":["DCP-1608","DCP-1618W","DCP-7080","DCP-7080D","DCP-7180DN","DCP-B7500D","DCP-B7520DW","DCP-B7530DN","DCP-B7535DW","DCP-L2535DW","DCP-L2540DN","DCP-L2540DW","DCP-L2550DW","DCP-T220","DCP-T226","DCP-T310","DCP-T425W","DCP-T426W","DCP-T510W","DCP-T710W","DCP-T820DW","HL-1208","HL-1218W","HL-2140","HL-2260","HL-2260D","HL-2560DN","HL-B2000D","MFC-1908","MFC-1919NW","MFC-7360D","MFC-7480D","MFC-7880DN"],"CANON":["E400","E410","E510","E560","G1010","G1020","G2000","G2010","G2020","G3000","G3010","G3020","G4000","G4010","G4020","LBP112!912UFRIILT","LBP6030!6030B!6018L","LBP6030w!6018w","MF110!910","MF3010","MG2400","MG2500","MG3000","MG3600","MP230","MP280","TS200","TS300","TS3100","TS3300","TS3400","TS5000","TS5100","TS5300","TS5380","TS6200","TS8000","TS8200","TS8380","TS9100","iB4100","iP2700","iP2800"],"CUMTENN":["CTP-22XX"],"DELI":["DM28ADN"],"EPSON":["CW-C6030A","L1110","L1210","L1250","L130","L1455","L211","L300","L310","L3100","L3110","L313","L3150","L3160","L3200","L3210","L3250","L3260","L350","L355","L360","L365","L380","L385","L405","L4150","L4160","L4260","L455","L485","L6160","L6170","L805","L850","M100","M105","M1100","M1120","M1170","M2110","M2140","M3140","WF-C5290"],"HP":["ColorLaserJetM153-M154","ColorLaserJetM155-M156","ColorLaserJetMFPM182-M185","ColorLaserJetMFPM282-M285","ColorLaserJetMFPM480","ColorLaserJetProM478f-9f","DeskJet1110","DeskJet1200","DeskJet2130","DeskJet2300","DeskJet2600","DeskJet2700","DeskJet3630","DeskJet3700","DeskJet4720","DeskJet4800","DeskJet4820","InkTank310","InkTankWireless410","Laser103a","Laser107a","Laser108a","Laser108w","LaserJet1020","LaserJet1022","LaserJet400M401d","LaserJet400M401dn","LaserJet5200","LaserJetCP1025","LaserJetCP1025nw","LaserJetM1005","LaserJetM101-M106","LaserJetM1319fMFP","LaserJetM14-M17","LaserJetMFPM129-M134","LaserJetMFPM232-M237","LaserJetMFPM28-M31","LaserJetMFPM433","LaserJetMFPM436","LaserJetP1007","LaserJetP1008","LaserJetP1505","LaserJetP2055","LaserJetP2055d","LaserJetP2055dn","LaserJetProM304-M305","LaserJetProMFPM126a","LaserJetProMFPM126nw","LaserJetProMFPM128fn","LaserJetProMFPM128fp","LaserJetProMFPM128fw","LaserJetProfessionalM1136MFP","LaserJetProfessionalM1212nfMFP","LaserJetProfessionalM1213nfMFP","LaserJetProfessionalM1216nfhMFP","LaserJetProfessionalP1102","LaserJetProfessionalP1106","LaserJetProfessionalP1108","LaserJetProfessionalP1109","LaserMFP135a","LaserMFP136a","LaserMFP136nw","LaserMFP136w","LaserMFP137fnw","LaserMFP138p","LaserMFP138pn","LaserMFP138pnw","LaserNS1020","LaserNSMFP1005","NeverstopLaser100x","NeverstopLaserMFP120x","SmartTank500","SmartTank510"],"ICSP":["M3030D","M3522W","P1030D","P1522W","YPS-1022N","YPS-1133DN","YPS-1133DNW","YPS-3022N","YPS-3122NA","YPS-3133DN","YPS-3133DNW","YPS-4022NH"],"ISCP":["M3030D","P1030D"],"JIMO":["JM1022NW","JM1822","JM2022NW","JM2022NWA","JP1022W"],"KONICA_MINOLTA":["bizhub2200P","bizhub2202MF","bizhub3000MF","bizhub3002MF","bizhub3022MF"],"KYOCERA":["ECOSYSM1025","ECOSYSM1520h","ECOSYSP1025","ECOSYSP1025d","ECOSYSP5018cdn","FS-1020MFP","FS-1040","FS-1120MFP","MA2000","MA2000w","PA2000","PA2000w"],"LENOVO":["LJ2200","M100","M100D","M100W","M101","M101DW","M102","M102W","M7206","M7206W"],"M\u0026G":["AEQ96777","AEQ96778"],"PANTUM":["AD310PDN","M6200","M6200NW","M6200W","M6500","M6500N","M6500NW","M6518NW","M6700D","M6700DW","M6760D","M6760DW","M6860FDW","M7160DW","MS6000","MS6000NW","MS6550","MS6550NW","P2200","P2200NW","P2200W","P2210","P2210W","P2500","P2500N","P2500NW","P3060D","P3060DW","P3370DN","S2000","YPS-1133DNW","YPS-3133DNW"],"TOSHIBA":["e-STUDIO300D","e-STUDIO301DN"],"ZONEWIN":["ZY-1100-PRINTER","ZY-1120-PRINTER"]}}}
+2022-09-20 09:33:43,997 gongfudou INFO test_gcp.py [52] {'code': 0, 'msg': 'ok', 'data': {'printers': {'AISINO': ['AP-1220', 'AP-2580'], 'AURORA': ['AD200PS', 'AD209PW', 'AD220MC', 'AD220MNF', 'AD220MNW', 'AD229MA', 'AD229MNA', 'AD229MWC', 'AD229PNW', 'AD229PS', 'AD240PN', 'AD310MC', 'AD310PDN', 'AD316MWA', 'AD330MWC', 'ADC240MNA'], 'BROTHER': ['DCP-1608', 'DCP-1618W', 'DCP-7080', 'DCP-7080D', 'DCP-7180DN', 'DCP-B7500D', 'DCP-B7520DW', 'DCP-B7530DN', 'DCP-B7535DW', 'DCP-L2535DW', 'DCP-L2540DN', 'DCP-L2540DW', 'DCP-L2550DW', 'DCP-T220', 'DCP-T226', 'DCP-T310', 'DCP-T425W', 'DCP-T426W', 'DCP-T510W', 'DCP-T710W', 'DCP-T820DW', 'HL-1208', 'HL-1218W', 'HL-2140', 'HL-2260', 'HL-2260D', 'HL-2560DN', 'HL-B2000D', 'MFC-1908', 'MFC-1919NW', 'MFC-7360D', 'MFC-7480D', 'MFC-7880DN'], 'CANON': ['E400', 'E410', 'E510', 'E560', 'G1010', 'G1020', 'G2000', 'G2010', 'G2020', 'G3000', 'G3010', 'G3020', 'G4000', 'G4010', 'G4020', 'LBP112!912UFRIILT', 'LBP6030!6030B!6018L', 'LBP6030w!6018w', 'MF110!910', 'MF3010', 'MG2400', 'MG2500', 'MG3000', 'MG3600', 'MP230', 'MP280', 'TS200', 'TS300', 'TS3100', 'TS3300', 'TS3400', 'TS5000', 'TS5100', 'TS5300', 'TS5380', 'TS6200', 'TS8000', 'TS8200', 'TS8380', 'TS9100', 'iB4100', 'iP2700', 'iP2800'], 'CUMTENN': ['CTP-22XX'], 'DELI': ['DM28ADN'], 'EPSON': ['CW-C6030A', 'L1110', 'L1210', 'L1250', 'L130', 'L1455', 'L211', 'L300', 'L310', 'L3100', 'L3110', 'L313', 'L3150', 'L3160', 'L3200', 'L3210', 'L3250', 'L3260', 'L350', 'L355', 'L360', 'L365', 'L380', 'L385', 'L405', 'L4150', 'L4160', 'L4260', 'L455', 'L485', 'L6160', 'L6170', 'L805', 'L850', 'M100', 'M105', 'M1100', 'M1120', 'M1170', 'M2110', 'M2140', 'M3140', 'WF-C5290'], 'HP': ['ColorLaserJetM153-M154', 'ColorLaserJetM155-M156', 'ColorLaserJetMFPM182-M185', 'ColorLaserJetMFPM282-M285', 'ColorLaserJetMFPM480', 'ColorLaserJetProM478f-9f', 'DeskJet1110', 'DeskJet1200', 'DeskJet2130', 'DeskJet2300', 'DeskJet2600', 'DeskJet2700', 'DeskJet3630', 'DeskJet3700', 'DeskJet4720', 'DeskJet4800', 'DeskJet4820', 'InkTank310', 'InkTankWireless410', 'Laser103a', 'Laser107a', 'Laser108a', 'Laser108w', 'LaserJet1020', 'LaserJet1022', 'LaserJet400M401d', 'LaserJet400M401dn', 'LaserJet5200', 'LaserJetCP1025', 'LaserJetCP1025nw', 'LaserJetM1005', 'LaserJetM101-M106', 'LaserJetM1319fMFP', 'LaserJetM14-M17', 'LaserJetMFPM129-M134', 'LaserJetMFPM232-M237', 'LaserJetMFPM28-M31', 'LaserJetMFPM433', 'LaserJetMFPM436', 'LaserJetP1007', 'LaserJetP1008', 'LaserJetP1505', 'LaserJetP2055', 'LaserJetP2055d', 'LaserJetP2055dn', 'LaserJetProM304-M305', 'LaserJetProMFPM126a', 'LaserJetProMFPM126nw', 'LaserJetProMFPM128fn', 'LaserJetProMFPM128fp', 'LaserJetProMFPM128fw', 'LaserJetProfessionalM1136MFP', 'LaserJetProfessionalM1212nfMFP', 'LaserJetProfessionalM1213nfMFP', 'LaserJetProfessionalM1216nfhMFP', 'LaserJetProfessionalP1102', 'LaserJetProfessionalP1106', 'LaserJetProfessionalP1108', 'LaserJetProfessionalP1109', 'LaserMFP135a', 'LaserMFP136a', 'LaserMFP136nw', 'LaserMFP136w', 'LaserMFP137fnw', 'LaserMFP138p', 'LaserMFP138pn', 'LaserMFP138pnw', 'LaserNS1020', 'LaserNSMFP1005', 'NeverstopLaser100x', 'NeverstopLaserMFP120x', 'SmartTank500', 'SmartTank510'], 'ICSP': ['M3030D', 'M3522W', 'P1030D', 'P1522W', 'YPS-1022N', 'YPS-1133DN', 'YPS-1133DNW', 'YPS-3022N', 'YPS-3122NA', 'YPS-3133DN', 'YPS-3133DNW', 'YPS-4022NH'], 'ISCP': ['M3030D', 'P1030D'], 'JIMO': ['JM1022NW', 'JM1822', 'JM2022NW', 'JM2022NWA', 'JP1022W'], 'KONICA_MINOLTA': ['bizhub2200P', 'bizhub2202MF', 'bizhub3000MF', 'bizhub3002MF', 'bizhub3022MF'], 'KYOCERA': ['ECOSYSM1025', 'ECOSYSM1520h', 'ECOSYSP1025', 'ECOSYSP1025d', 'ECOSYSP5018cdn', 'FS-1020MFP', 'FS-1040', 'FS-1120MFP', 'MA2000', 'MA2000w', 'PA2000', 'PA2000w'], 'LENOVO': ['LJ2200', 'M100', 'M100D', 'M100W', 'M101', 'M101DW', 'M102', 'M102W', 'M7206', 'M7206W'], 'M&G': ['AEQ96777', 'AEQ96778'], 'PANTUM': ['AD310PDN', 'M6200', 'M6200NW', 'M6200W', 'M6500', 'M6500N', 'M6500NW', 'M6518NW', 'M6700D', 'M6700DW', 'M6760D', 'M6760DW', 'M6860FDW', 'M7160DW', 'MS6000', 'MS6000NW', 'MS6550', 'MS6550NW', 'P2200', 'P2200NW', 'P2200W', 'P2210', 'P2210W', 'P2500', 'P2500N', 'P2500NW', 'P3060D', 'P3060DW', 'P3370DN', 'S2000', 'YPS-1133DNW', 'YPS-3133DNW'], 'TOSHIBA': ['e-STUDIO300D', 'e-STUDIO301DN'], 'ZONEWIN': ['ZY-1100-PRINTER', 'ZY-1120-PRINTER']}}}
+2022-09-20 09:33:43,998 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-09-20 09:33:43,998 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+0
+2022-09-20 09:33:43,998 gongfudou INFO myassert.py [39] 期望结果为:
+0
+2022-09-20 09:33:43,999 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.msg', 'expected': 'ok', 'type': 'eq'}
+2022-09-20 09:33:43,999 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+ok
+2022-09-20 09:33:44,000 gongfudou INFO myassert.py [39] 期望结果为:
+ok
+2022-09-20 09:33:44,000 gongfudou INFO myassert.py [54] 所有断言成功！
+2022-09-20 09:33:44,010 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-20 09:33:44,011 gongfudou INFO request.py [39] 请求url: 
+https://gcp-staging-1.gongfudou.com/api/server/lpoptions
+2022-09-20 09:33:44,012 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-20 09:33:44,012 gongfudou INFO request.py [41] 请求数据: 
+{'make': 'EPSON', 'modal': 'L805'}
+2022-09-20 09:33:44,125 gongfudou INFO request.py [48] 响应结果：
+{"code":0,"msg":"ok","data":{"result":["MediaType/Print Quality: PLAIN_HIGH *PLAIN_NORMAL PLATINA_HIGH PLATINA_NORMAL PMPHOTO_HIGH PMPHOTO_NORMAL PSGLOS_HIGH PSGLOS_NORMAL PMMATT_HIGH PMMATT_NORMAL SFINE_HIGH MINIPHOTO_HIGH CDDVD_HIGH ENV_HIGH ENV_NORMAL","Ink/Grayscale: *COLOR MONO","PageSize/Media Size: *A4 TA4 4X6FULL T4X6FULL 2L T2L A6 A5 B5 L TL INDEX5 8x10 T8x10 4X7 T4X7 Postcard TPostcard ENV10 ENVC6 Letter TLetter Legal","Brightness/Brightness: -25 -24 -23 -22 -21 -20 -19 -18 -17 -16 -15 -14 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 *0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25","Contrast/Contrast: -25 -24 -23 -22 -21 -20 -19 -18 -17 -16 -15 -14 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 *0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25","Saturation/Saturation: -25 -24 -23 -22 -21 -20 -19 -18 -17 -16 -15 -14 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 *0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25",""]}}
+2022-09-20 09:33:44,126 gongfudou INFO test_gcp.py [52] {'code': 0, 'msg': 'ok', 'data': {'result': ['MediaType/Print Quality: PLAIN_HIGH *PLAIN_NORMAL PLATINA_HIGH PLATINA_NORMAL PMPHOTO_HIGH PMPHOTO_NORMAL PSGLOS_HIGH PSGLOS_NORMAL PMMATT_HIGH PMMATT_NORMAL SFINE_HIGH MINIPHOTO_HIGH CDDVD_HIGH ENV_HIGH ENV_NORMAL', 'Ink/Grayscale: *COLOR MONO', 'PageSize/Media Size: *A4 TA4 4X6FULL T4X6FULL 2L T2L A6 A5 B5 L TL INDEX5 8x10 T8x10 4X7 T4X7 Postcard TPostcard ENV10 ENVC6 Letter TLetter Legal', 'Brightness/Brightness: -25 -24 -23 -22 -21 -20 -19 -18 -17 -16 -15 -14 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 *0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25', 'Contrast/Contrast: -25 -24 -23 -22 -21 -20 -19 -18 -17 -16 -15 -14 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 *0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25', 'Saturation/Saturation: -25 -24 -23 -22 -21 -20 -19 -18 -17 -16 -15 -14 -13 -12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 *0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25', '']}}
+2022-09-20 09:33:44,127 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-09-20 09:33:44,127 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+0
+2022-09-20 09:33:44,127 gongfudou INFO myassert.py [39] 期望结果为:
+0
+2022-09-20 09:33:44,128 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.msg', 'expected': 'ok', 'type': 'eq'}
+2022-09-20 09:33:44,128 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+ok
+2022-09-20 09:33:44,128 gongfudou INFO myassert.py [39] 期望结果为:
+ok
+2022-09-20 09:33:44,128 gongfudou INFO myassert.py [54] 所有断言成功！
+2022-09-20 09:33:44,132 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-20 09:33:44,132 gongfudou INFO request.py [39] 请求url: 
+https://gcp-staging-1.gongfudou.com/api/server/job_queue_health
+2022-09-20 09:33:44,132 gongfudou INFO request.py [40] 请求方法: 
+get
+2022-09-20 09:33:44,132 gongfudou INFO request.py [41] 请求数据: 
+{}
+2022-09-20 09:33:44,513 gongfudou INFO request.py [48] 响应结果：
+{"code":0,"msg":"ok","data":null}
+2022-09-20 09:33:44,513 gongfudou INFO test_gcp.py [52] {'code': 0, 'msg': 'ok', 'data': None}
+2022-09-20 09:33:44,513 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-09-20 09:33:44,513 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+0
+2022-09-20 09:33:44,513 gongfudou INFO myassert.py [39] 期望结果为:
+0
+2022-09-20 09:33:44,513 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.msg', 'expected': 'ok', 'type': 'eq'}
+2022-09-20 09:33:44,513 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+ok
+2022-09-20 09:33:44,513 gongfudou INFO myassert.py [39] 期望结果为:
+ok
+2022-09-20 09:33:44,514 gongfudou INFO myassert.py [54] 所有断言成功！
+2022-09-20 09:33:44,517 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-20 09:33:44,518 gongfudou INFO request.py [39] 请求url: 
+https://gcp-staging-1.gongfudou.com/api/server/command
+2022-09-20 09:33:44,520 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-20 09:33:44,520 gongfudou INFO request.py [41] 请求数据: 
+{'device_id': '00E099157726', 'device_secret': '96a60de5072821dc', 'command': 'reboot', 'content': '192.168.3.119', 'remark': 'command:reboot,rescan,scan_list,scan_job,rmlock'}
+2022-09-20 09:33:44,617 gongfudou INFO request.py [48] 响应结果：
+{"code":0,"msg":"ok","data":null}
+2022-09-20 09:33:44,617 gongfudou INFO test_gcp.py [52] {'code': 0, 'msg': 'ok', 'data': None}
+2022-09-20 09:33:44,617 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-09-20 09:33:44,617 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+0
+2022-09-20 09:33:44,618 gongfudou INFO myassert.py [39] 期望结果为:
+0
+2022-09-20 09:33:44,618 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.msg', 'expected': 'ok', 'type': 'eq'}
+2022-09-20 09:33:44,618 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+ok
+2022-09-20 09:33:44,618 gongfudou INFO myassert.py [39] 期望结果为:
+ok
+2022-09-20 09:33:44,618 gongfudou INFO myassert.py [54] 所有断言成功！
+2022-09-20 09:33:44,621 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-20 09:33:44,621 gongfudou INFO request.py [39] 请求url: 
+https://gcp-staging-1.gongfudou.com/api/server/app_auth
+2022-09-20 09:33:44,621 gongfudou INFO request.py [40] 请求方法: 
+post
+2022-09-20 09:33:44,621 gongfudou INFO request.py [41] 请求数据: 
+{'uid': 419516904, 'platform': 'ios', 'version': '1.5.4.1'}
+2022-09-20 09:33:45,002 gongfudou INFO request.py [48] 响应结果：
+{"code":0,"msg":"ok","data":{"expires_at":1663641226,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjQxOTUxNjkwNCwicGxhdGZvcm0iOiJpb3MiLCJ2ZXJzaW9uIjoiMS41LjQuMSIsImV4cCI6MTY2MzY0MTIyNiwiaXNzIjoiR0NQU2VydmVyIn0.ycRRdcrG7TAuDH8-s-TiEt4w9dy59ni7HXSAJB0xlIQ"}}
+2022-09-20 09:33:45,002 gongfudou INFO test_gcp.py [52] {'code': 0, 'msg': 'ok', 'data': {'expires_at': 1663641226, 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjQxOTUxNjkwNCwicGxhdGZvcm0iOiJpb3MiLCJ2ZXJzaW9uIjoiMS41LjQuMSIsImV4cCI6MTY2MzY0MTIyNiwiaXNzIjoiR0NQU2VydmVyIn0.ycRRdcrG7TAuDH8-s-TiEt4w9dy59ni7HXSAJB0xlIQ'}}
+2022-09-20 09:33:45,003 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-09-20 09:33:45,003 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+0
+2022-09-20 09:33:45,003 gongfudou INFO myassert.py [39] 期望结果为:
+0
+2022-09-20 09:33:45,003 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.msg', 'expected': 'ok', 'type': 'eq'}
+2022-09-20 09:33:45,004 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+ok
+2022-09-20 09:33:45,004 gongfudou INFO myassert.py [39] 期望结果为:
+ok
+2022-09-20 09:33:45,004 gongfudou INFO myassert.py [54] 所有断言成功！
+2022-09-20 09:33:45,009 gongfudou INFO request.py [54] 请求头为：
+{'Content-Type': 'application/json', 'GCP-AppID': 'GFDe6syCeHVBf1J6', 'GCP-AppKey': '399f456017f6246f'}
+2022-09-20 09:33:45,010 gongfudou INFO request.py [39] 请求url: 
+https://gcp-staging-1.gongfudou.com/api/server/client_info
+2022-09-20 09:33:45,010 gongfudou INFO request.py [40] 请求方法: 
+get
+2022-09-20 09:33:45,010 gongfudou INFO request.py [41] 请求数据: 
+{'device_id': 'C01C30215F16'}
+2022-09-20 09:33:45,104 gongfudou INFO request.py [48] 响应结果：
+{"code":0,"msg":"ok","data":{"alive":true,"device_id":"C01C30215F16","device_model":"XB900W","escl":false,"firmware_version":"PHX077_v0.1.0","iot_pro_enable":true,"iot_pro_regist":true,"local_ip":"192.168.50.117","mqtt":true,"network_proto":"","printer_connect":true,"printer_make":"BROTHER","printer_modal":"DCP-L2550DW","printer_ping_delay":0,"printer_serial":"E80788F2N812013","printer_state":0,"printer_state_reasons":"","printer_support":true,"use_ipp_driver":false,"version":19,"wifi_ssid":"GFD-PDD"}}
+2022-09-20 09:33:45,104 gongfudou INFO test_gcp.py [52] {'code': 0, 'msg': 'ok', 'data': {'alive': True, 'device_id': 'C01C30215F16', 'device_model': 'XB900W', 'escl': False, 'firmware_version': 'PHX077_v0.1.0', 'iot_pro_enable': True, 'iot_pro_regist': True, 'local_ip': '192.168.50.117', 'mqtt': True, 'network_proto': '', 'printer_connect': True, 'printer_make': 'BROTHER', 'printer_modal': 'DCP-L2550DW', 'printer_ping_delay': 0, 'printer_serial': 'E80788F2N812013', 'printer_state': 0, 'printer_state_reasons': '', 'printer_support': True, 'use_ipp_driver': False, 'version': 19, 'wifi_ssid': 'GFD-PDD'}}
+2022-09-20 09:33:45,105 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.code', 'expected': 0, 'type': 'eq'}
+2022-09-20 09:33:45,105 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+0
+2022-09-20 09:33:45,105 gongfudou INFO myassert.py [39] 期望结果为:
+0
+2022-09-20 09:33:45,105 gongfudou INFO myassert.py [33] 要断言的内容为：
+{'expr': '$.msg', 'expected': 'ok', 'type': 'eq'}
+2022-09-20 09:33:45,105 gongfudou INFO myassert.py [38] 从响应结果当中，提取到的值为:
+ok
+2022-09-20 09:33:45,105 gongfudou INFO myassert.py [39] 期望结果为:
+ok
+2022-09-20 09:33:45,105 gongfudou INFO myassert.py [54] 所有断言成功！
