@@ -6,9 +6,7 @@
  @Software: PyCharm
  @company : 功夫豆信息科技
 """
-import sys
-import os
-
+import sys,os
 sys.path.append('..')
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
 import pytest
@@ -65,7 +63,7 @@ class TestGcp:
             # 4、提取响应结果中的数据,并设置为全局变量
             if case["extract"]:
                 # 调用提取处理函数
-                extract_data_from_response(case["extract"], resp.json(), share_data)
+                extract_data_from_response(case["extract"], resp.json())
 
         # 6、断言数据库 - sql语句、结果与实际、比对的类型
         if case["assert_db"]:
@@ -75,7 +73,6 @@ class TestGcp:
         # 最终的抛AsserttionError
         if False in assert_res:
             raise AssertionError
-
 pytest.main(['--report=_report.html',
              '--title=GCP接口自动化测试报告',
              '--tester=王文闯',
